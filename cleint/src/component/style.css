@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{   
+    height: 85vh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+  
+}
+.head {
+    
+    text-align: center;
+   
+}
+
+.head h3{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #6C63FF;
+    font-family: serif;
+}
+
+
+
+.card{
+ width: 650px;
+   height: 75vh;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   display: flex;
+   
+ 
+}
+
+.left{ 
+    flex-basis: 50%;
+}
+
+
+
+.form-group input{
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    border-bottom: solid 1px rgb(204, 202, 202) ;
+    margin: 10px;
+    outline: none;
+    margin-left: 50px;
+ text-align: center;
+
+ 
+
+   
+    
+}
+
+.form-group input::placeholder{
+  font-size: 1rem;
+ 
+  
+
+}
+
+
+
+
+.right{
+    
+    flex-basis: 50%;
+}
+
+
+
+
+
+.btn{
+    font-size: 15px;
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 55px;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+
+
+.rslogo{
+    width: 250px;
+    margin-top: 170px;
+    margin-left: 40px;
+
+}
+
+
+
+

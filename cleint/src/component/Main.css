@@ -1,0 +1,287 @@
+
+.container{   
+   display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.lefft{
+    flex-basis: 50%;
+    
+    
+}
+
+.lefft img{
+    width: 400px;
+    position:relative;
+    top: 30px;
+    left: 15px;
+
+}
+
+.circle{
+    
+    background-color: rgb(155, 151, 147);
+    width: 360px;
+    height: 320px;
+    position: ellipse(41% 13% at 51% 55%);
+    clip-path: ellipse(41% 13% at 51% 55%);
+    position: absolute;
+    left: 18px;
+    top: 209px;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.lefft h1{
+    position:absolute;
+    top: 400px;
+    left: 30px;
+    font-size: 40px;
+    font-family:serif;
+
+
+
+
+}
+
+.righht{
+    flex-basis: 50%;
+   
+
+}
+.righht h1 {
+    top: -108px;
+    left: 0%;
+    font-size: 5.625rem;
+    color: #6C63FF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+
+#to_login{
+    position:absolute;
+        font-size: 15px;
+        background-color: #6C63FF;
+        color: white;
+        border: none;
+        width: 130px;
+        height: 40px;
+        font-weight: bold;
+       top: 440px;
+
+       left: 85%;
+        cursor: pointer;
+   
+    
+}
+
+#contact_btn{
+
+    position:absolute;
+        font-size: 15px;
+        background-color: #6C63FF;
+        color: white;
+        border: none;
+        width: 130px;
+        height: 40px;
+        font-weight: bold;
+       top: 440px;
+        cursor: pointer;
+   left: 65%;
+    
+}
+
+.righht p span{
+   
+   
+    color: #6C63FF;
+
+    font-weight: bold;
+}
+
+.righht {
+    margin-top: 140px;
+    font-size: 16px;
+
+text-align: center;
+margin-top: 41px;
+
+
+}
+
+
+
+
+.change_content::after{
+    content: "";
+
+
+    animation:  changetext 8s infinite linear;
+    color: #6C63FF;
+}
+
+@keyframes changetext{
+    0%{
+        content: "Mohit Rathore";
+    }
+    100%{
+        content: "Mern Devloper";
+    }
+}
+
+
+/* media quary */
+
+@media only screen and (max-width: 891px){
+    .righht p {
+        font-size: 14px;
+    }
+
+    .righht h1{
+       font-size: 70px;
+    }
+
+}
+
+
+.contact h1{
+    text-align: start;
+    margin-left: 50px;
+    
+}
+
+@media only screen and (max-width: 794px){
+    .righht p {
+        font-size: 13px;
+    }
+
+    .lefft img{
+        width: 300px;
+    }
+
+
+    .righht h1{
+        font-size: 68px;
+        top: -65px;
+    }
+
+
+    .circle{
+        width: 228px;
+        top: 153px;
+    }
+
+    .lefft h1{
+        font-size: 35px;
+    }
+
+    .righht h1{
+       font-size: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 730px){
+    .circle{
+        top: 165px;
+        left: -6px;
+    }
+
+    #contact_btn{
+        width: 100px;
+        height: 35px;
+    }
+
+    #to_login{
+        width: 100px;
+        height: 35px; 
+    }
+}
+
+
+@media only screen and (max-width: 651px){
+    .righht p{
+        font-size: 12px;
+    }
+
+    .lefft img{
+        width: 250px;
+    }
+
+
+    .circle{
+        top: 130px;
+    }
+
+    .lefft h1{
+        font-size: 32px;
+    }
+}
+
+
+@media only screen and (max-width: 609px){
+.container{
+    flex-wrap: wrap;}
+
+
+    .righht h1{
+        top: -290px;
+       
+    }
+
+    .lefft img{
+        top: 150px;
+       
+    }
+
+    .circle{
+        left: 130px;
+        top: 200px;
+    }
+
+    .lefft h1{
+       top: 600px;
+    }
+
+    .righht button{
+        top: 600px;
+    }
+
+    #contact_btn{
+        top: 630px;
+    }
+
+    #to_login{
+        top: 630px;
+    }
+}
+
+
+
+
+/* contact */
+.contact h1 span{
+    color: #6C63FF;
+}
+
+
+
+.persnal{
+    position:absolute;
+    font-size: 15px;
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    top: 200px;
+    left: 50px;
+    cursor: pointer;
+
+}
+

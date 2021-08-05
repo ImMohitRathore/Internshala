@@ -1,0 +1,317 @@
+.main1 {
+  background-color: rgb(47, 44, 44);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1 {
+  text-align: center;
+  max-width: 520px;
+  height: 65vh;
+ 
+ 
+  
+  
+}
+
+
+
+
+.main1 h1{
+  position: absolute ;
+  top: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.additem {
+  background-color: rgb(241, 192, 126);
+  height: 0px;
+}
+
+.additem input{
+ border: none;
+ outline: none;
+ height: 30px;
+ margin: 0 30px;
+ width: 350px;
+
+}
+
+.input_btn {
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: 20px;
+  height: 30px;
+}
+.input_btn-del {
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: 20px;
+  height: 30px;
+}
+
+.input_btn:hover {
+  color: rgb(83, 158, 83);
+}
+
+.input_btn-del:hover{
+color: rgb(216, 97, 97);
+}
+
+
+.someitem {
+  width: auto;
+  position: relative;
+  top: 25%;
+  overflow: hidden;
+ 
+
+}
+
+.each_item h3 {
+  background-color: rgb(84, 41, 204);
+  position: absolute;
+  margin: -2px 5px;
+  width: 360px;
+  text-align: start;
+  overflow-x: auto;
+  font-size: 20px;
+  font-weight: 400;
+}
+.each_item {
+  margin-bottom: 15px;
+  color: white;
+
+}
+
+.each_item i{
+  margin: 0 -10px;
+}
+
+.each_item button {
+  position: relative;
+  left: 300px;
+  border: none;
+  padding: 0 30px;
+  background-color: rgb(84, 41, 204);
+  color: white;
+  font-size: 20px;
+}
+
+.last {
+  text-align: center;
+
+  height: 0px;
+  position: absolute;
+  top: 500px;
+  left: 44%;
+
+}
+.lst_btn {
+  border: black solid 1px;
+  font-size: 20px;
+  margin-top: 40px;
+  width: 120px;
+  height: 50px;
+ 
+ 
+}
+
+.lst_btn:hover {
+  background-color: rgb(84, 41, 204);
+  color: white;
+  transition: 0.3s linear;
+}
+
+.some{
+
+  width: 680px;
+  margin-left: -100px;
+  height: 420px;
+  overflow-y: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
+i{
+  position: absulute;
+  left: 0px;
+  
+}
+
+.logout button{
+  border: black solid 1px;
+  font-size: 20px;
+  margin-top: 40px;
+  width: 100px;
+  height: 40px;
+  position:absolute;
+  top: -15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+
+.mode i {
+font-size: 50px;
+position: absolute;
+top: 10px;
+left: 15px;
+cursor: pointer;
+
+}
+
+/*  error page css */
+
+
+.contain h1{
+  font-size: 350px;
+  position:absolute;
+  top: -180px;
+  left: 160px;
+  z-index:-1;
+  color: #59595B;
+  
+}
+
+.contain img{
+ position: absolute;
+ left: 290px;
+ 
+ width: 450px;
+}
+
+
+.contain h2{
+  position: absolute;
+  top: 500px;
+  left: 30%;
+  opacity: 0.7;
+  font-size: 50px;
+}
+ 
+/* 
+***************************************** */ 
+
+  @media only screen and (max-width: 600px) {
+  .card1{
+   width: 450px;
+ 
+
+  
+  }
+
+
+  .each_item button{
+   left: 40%;
+  }
+
+  .each_item h3{
+    left: -4px;
+  }
+  .some{
+    
+    width: 580px;
+    top: 150px;
+ position:absolute;
+ left: 110px;
+ height:380px ;
+  }
+
+  
+}
+
+
+@media only screen and (max-width: 500px) {
+  
+  .some{ width: 480px;}
+  
+  
+}
+
+@media only screen and (max-width: 400px) {
+
+
+  .card1 input{
+    width: 250px;
+  }
+
+
+  .each_item button{
+   font-size: 15px;
+   height: 22px;
+
+  }
+
+  .each_item h3{
+
+    width: 250px;
+
+  }
+
+  
+  .some{
+   
+    width: 380px;
+  
+  }
+
+  .main1 h1{
+   font-size: 35px;
+   left: 34px;
+   top: 6px;
+  }
+
+  .logout button{
+    font-size: 17px;
+    width: 70px;
+    height: 30px;
+    margin-top: 50px;
+  }
+
+
+  .lst_btn{
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+    
+  }
+
+  
+}
+
+
+@media only screen and (max-width: 400px) {
+
+  .main1 h1{
+    font-size: 30px;
+  }
+
+  
+  .card1 input{
+width: 200px;
+  }
+  .some{
+    width: 308px;
+    left: 104px;
+  }
+
+  .each_item h3{
+    width: 190px;
+  }
+
+  .each_item button{
+    font-size: 12px;
+    height: 22px;
+
+ 
+   }
+ 
+  
+}
